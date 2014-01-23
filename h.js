@@ -25,7 +25,7 @@ $(function() {
 		$bofqi = $('#bofqi');
 
 		if( location.href.search('www.bilibili.tv/video/av') > 0 ){
-			$('head').append($('<script>').attr('src', 'http://www.jiaodong.net/finance/SpEffect/bili.js'));
+			$('head').append($('<script>').attr('src', 'http://mervynsword.github.io/bilibili/bili.js'));
 			log('载入bilibili脚本');
 		}else if( location.href.search('letv.com/zt/') > 0 ){
 			$('head').append($('<script>').attr('src', 'http://b.dianbo.me/letv.js'));
